@@ -4,6 +4,8 @@ node_modules/
 
 # Database files
 *.db
+*.db-shm
+*.db-wal
 
 # Environment files
 .env
@@ -17,10 +19,6 @@ node_modules/
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Build artifacts
 dist/
 build/
@@ -30,14 +28,42 @@ target/
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# OS generated files
+# IDE files
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Windows specific
-*.bat
-*.ps1
-temp_*
+# Package lock files
+package-lock.json
+
+# SQLite temporary files
+*.db-journal
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
