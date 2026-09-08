@@ -1,0 +1,43 @@
+```
+# Dependencies
+node_modules/
+
+# Database files
+*.db
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Windows specific
+*.bat
+*.ps1
+temp_*
+```
